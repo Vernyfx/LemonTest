@@ -463,7 +463,7 @@ function verny.create(Settings)
 		local joindiscordbutton = Create("TextButton",{
 			Name = "joindiscordbutton",
 			Parent = scrollbar_main,
-			BackgroundColor3 = Color3.fromRGB(235, 231, 27),
+			BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 			BorderSizePixel = 0,
 			Position = UDim2.new(0.0470588244, 0, 0.19600001, 0),
 			Size = UDim2.new(0, 154, 0, 21),
@@ -1739,7 +1739,7 @@ function verny.create(Settings)
 					local sliderframe = Create("Frame",{
 						Name = "sliderframe",
 						Parent = page,
-						BackgroundColor3 = Color3.fromRGB(57, 54, 29),
+						BackgroundColor3 = Color3.fromRGB(25,25,25),
 						BorderSizePixel = 0,
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 7.38636351, 0),
@@ -1779,7 +1779,7 @@ function verny.create(Settings)
 						Size = UDim2.new((Default or 0) / Max, 0, 0, 25),
 					})
 					local ButtonBarUIGradient = Create("UIGradient",{
-						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(55, 56, 40)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(204, 217, 26))},
+						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 67, 40)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 182, 67))},
 						Name = "ButtonBarUIGradient",
 						Parent = SliderValueFrame,
 					})
