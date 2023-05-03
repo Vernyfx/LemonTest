@@ -1739,7 +1739,7 @@ function verny.create(Settings)
 					local sliderframe = Create("Frame",{
 						Name = "sliderframe",
 						Parent = page,
-						BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+						BackgroundColor3 = Color3.fromRGB(252, 227, 0),
 						BorderSizePixel = 0,
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 7.38636351, 0),
