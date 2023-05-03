@@ -1739,7 +1739,7 @@ function verny.create(Settings)
 					local sliderframe = Create("Frame",{
 						Name = "sliderframe",
 						Parent = page,
-						BackgroundColor3 = Color3.fromRGB(94, 88, 42),
+						BackgroundColor3 = Color3.fromRGB(57, 54, 29),
 						BorderSizePixel = 0,
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 7.38636351, 0),
@@ -1779,7 +1779,7 @@ function verny.create(Settings)
 						Size = UDim2.new((Default or 0) / Max, 0, 0, 25),
 					})
 					local ButtonBarUIGradient = Create("UIGradient",{
-						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(21, 41, 49)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(50, 99, 118))},
+						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(55, 56, 40)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(204, 217, 26))},
 						Name = "ButtonBarUIGradient",
 						Parent = SliderValueFrame,
 					})
