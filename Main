@@ -421,7 +421,7 @@ function verny.create(Settings)
 			TextXAlignment = Enum.TextXAlignment.Left,
 		})
 		local title_verny_uigradient = Create("UIGradient",{
-			Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(73, 143, 171)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(252, 227, 0))},
+			Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(52, 77, 59)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 144, 50))},
 			Name = "title_verny_uigradient",
 			Parent = title_verny,
 		})
@@ -463,7 +463,7 @@ function verny.create(Settings)
 		local joindiscordbutton = Create("TextButton",{
 			Name = "joindiscordbutton",
 			Parent = scrollbar_main,
-			BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+			BackgroundColor3 = Color3.fromRGB(235, 231, 27),
 			BorderSizePixel = 0,
 			Position = UDim2.new(0.0470588244, 0, 0.19600001, 0),
 			Size = UDim2.new(0, 154, 0, 21),
@@ -679,7 +679,7 @@ function verny.create(Settings)
 				Position = UDim2.new(0.119999997, 0, 0.5, 0),
 				Size = UDim2.new(0, 25, 0, 25),
 				Image = "http://www.roblox.com/asset/?id="..tonumber(Logo),
-				ImageColor3 = Color3.fromRGB(252, 227, 0),
+				ImageColor3 = 22, 144, 50,
 				ScaleType = Enum.ScaleType.Fit,
 			})
 
@@ -1034,7 +1034,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(252, 227, 0),
+								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1206,7 +1206,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(252, 227, 0),
+								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1342,7 +1342,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(252, 227, 0),
+								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1483,7 +1483,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(252, 227, 0),
+								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1606,7 +1606,7 @@ function verny.create(Settings)
 						Parent = CheckBox1,
 						Active = true,
 						AnchorPoint = Vector2.new(0.5, 0.5),
-						BackgroundColor3 = Color3.fromRGB(252, 227, 0),
+						BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 						Position = UDim2.new(0.5, 0, 0.5, 0),
 						Size = UDim2.new(0, 0, 0, 0),
 						ClipsDescendants = true,
