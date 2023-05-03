@@ -1606,7 +1606,7 @@ function verny.create(Settings)
 						Parent = CheckBox1,
 						Active = true,
 						AnchorPoint = Vector2.new(0.5, 0.5),
-						BackgroundColor3 = Color3.fromRGB(22, 144, 50),,
+						BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 						Position = UDim2.new(0.5, 0, 0.5, 0),
 						Size = UDim2.new(0, 0, 0, 0),
 						ClipsDescendants = true,
