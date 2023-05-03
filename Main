@@ -463,7 +463,7 @@ function verny.create(Settings)
 		local joindiscordbutton = Create("TextButton",{
 			Name = "joindiscordbutton",
 			Parent = scrollbar_main,
-			BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+			BackgroundColor3 = Color3.fromRGB(22, 144, 50),
 			BorderSizePixel = 0,
 			Position = UDim2.new(0.0470588244, 0, 0.19600001, 0),
 			Size = UDim2.new(0, 154, 0, 21),
@@ -659,7 +659,7 @@ function verny.create(Settings)
 			local buttonbar = Create("TextButton",{
 				Name = "buttonbar",
 				Parent = framebar,
-				BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+				BackgroundColor3 = Color3.fromRGB(100, 205, 44),
 				BackgroundTransparency = 1.000,
 				Size = UDim2.new(0, 169, 0, 52),
 				Font = Enum.Font.SourceSans,
