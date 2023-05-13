@@ -36,7 +36,7 @@ nameOfGame = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 
 
 local Config = setmetatable({},{ __newindex = function(tables,key,value) rawset(tables,key,value) end})
-local ConfigSetting = {FileName=game.Players.LocalPlayer.Name .. "_" .. nameOfGame.Name ,AutoSave=true,FolderName='Verny Hub'}
+local ConfigSetting = {FileName=game.Players.LocalPlayer.Name .. "_" .. game.PlaceId ,AutoSave=true,FolderName='Verny Hub'}
 function verny:CreateFile() :any
 	local FileName = ConfigSetting.FileName or "Next"
 	local FolderName = ConfigSetting.FolderName or "NextJs"
@@ -1739,7 +1739,7 @@ function verny.create(Settings)
 					local sliderframe = Create("Frame",{
 						Name = "sliderframe",
 						Parent = page,
-						BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+						BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 						BorderSizePixel = 0,
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 7.38636351, 0),
@@ -1752,7 +1752,7 @@ function verny.create(Settings)
 						Name = "sliderframe2",
 						Parent = sliderframe,
 						AnchorPoint = Vector2.new(0.5, 0.5),
-						BackgroundColor3 = Color3.fromRGB(45, 45, 45),
+						BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 						BackgroundTransparency = 1.000,
 						BorderSizePixel = 0,
 						ClipsDescendants = true,
@@ -1779,7 +1779,7 @@ function verny.create(Settings)
 						Size = UDim2.new((Default or 0) / Max, 0, 0, 25),
 					})
 					local ButtonBarUIGradient = Create("UIGradient",{
-						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 86, 50)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 144, 50))},
+						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 24, 62)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(131, 15, 202))},
 						Name = "ButtonBarUIGradient",
 						Parent = SliderValueFrame,
 					})
