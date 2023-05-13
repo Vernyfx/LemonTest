@@ -514,7 +514,7 @@ function verny.create(Settings)
 		local toggleuibutton = Create("TextButton",{
 			Name = "toggleuibutton",
 			Parent = scrollbar_main,
-			BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+			BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 			BackgroundTransparency = 1.000,
 			BorderSizePixel = 0,
 			Position = UDim2.new(0.0469999984, 0, 0.0200000014, 0),
@@ -820,7 +820,7 @@ function verny.create(Settings)
 					Name = "page",
 					Parent = scrollingmainpage,
 					Active = true,
-					BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+					BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 					BackgroundTransparency = 1.000,
 					Position = UDim2.new(0.020833334, 0, 0.0878243521, 0),
 					Size = UDim2.new(0, 389, 0, 44),
@@ -862,7 +862,7 @@ function verny.create(Settings)
 						Name = "dropdownframe",
 						Parent = page,
 						Active = true,
-						BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+						BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 0.113636367, 0),
 						Size = UDim2.new(0, 380, 0, 38),
@@ -1024,7 +1024,7 @@ function verny.create(Settings)
 								Parent = buttonbar,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.0500000007, 0, 0.5, 0),
 								Size = UDim2.new(0, 23, 0, 23),
 							})
@@ -1196,7 +1196,7 @@ function verny.create(Settings)
 								Parent = buttonbar,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.0500000007, 0, 0.5, 0),
 								Size = UDim2.new(0, 23, 0, 23),
 							})
@@ -1332,7 +1332,7 @@ function verny.create(Settings)
 								Parent = buttonbar,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.0500000007, 0, 0.5, 0),
 								Size = UDim2.new(0, 23, 0, 23),
 							})
@@ -1473,7 +1473,7 @@ function verny.create(Settings)
 								Parent = buttonbar,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.0500000007, 0, 0.5, 0),
 								Size = UDim2.new(0, 23, 0, 23),
 							})
@@ -1555,7 +1555,7 @@ function verny.create(Settings)
 						Name = "toggleframe",
 						Parent = page,
 						Active = true,
-						BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+						BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 0.113636367, 0),
 						Size = UDim2.new(0, 380, 0, 38),
@@ -1697,7 +1697,7 @@ function verny.create(Settings)
 						Name = "buttonframe",
 						Parent = page,
 						Active = true,
-						BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+						BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 						BackgroundTransparency = 1.000,
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 6.68181801, 0),
@@ -1800,7 +1800,7 @@ function verny.create(Settings)
 					stroke(slidervalueframe,0,1,Color3.fromRGB(50,50,50))
 					corner(slidervalueframe,4)
 					local slidervalueframeuigradient = Create("UIGradient",{
-						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 18, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 35, 35))},
+						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 18, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(29, 25, 30))},
 						Name = "slidervalueframeuigradient",
 						Parent = slidervalueframe,
 					})
@@ -1945,7 +1945,7 @@ function verny.create(Settings)
 					local textboxframe = Create("Frame",{
 						Name = "textboxframe",
 						Parent = page,
-						BackgroundColor3 = Color3.fromRGB(35, 35, 35),
+						BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 						BorderSizePixel = 0,
 						ClipsDescendants = true,
 						Position = UDim2.new(0, 0, 7.38636351, 0),
@@ -1979,7 +1979,7 @@ function verny.create(Settings)
 					})
 
 					local slidervalueframeuigradient = Create("UIGradient",{
-						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 18, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 35, 35))},
+						Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 18, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(29, 25, 30))},
 						Name = "slidervalueframeuigradient",
 						Parent = textboxholderframe,
 					})
@@ -2038,7 +2038,7 @@ function verny.create(Settings)
 
 					labelframe.Name = "labelframe"
 					labelframe.Parent = page
-					labelframe.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+					labelframe.BackgroundColor3 = Color3.fromRGB(29, 25, 30)
 					labelframe.BackgroundTransparency = 1.000
 					labelframe.BorderSizePixel = 0
 					labelframe.ClipsDescendants = true
@@ -2087,7 +2087,7 @@ function verny.create(Settings)
 
 					paragraphframe.Name = "paragraphframe"
 					paragraphframe.Parent = page
-					paragraphframe.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+					paragraphframe.BackgroundColor3 = Color3.fromRGB(29, 25, 30)
 					paragraphframe.BackgroundTransparency = 1.000
 					paragraphframe.BorderSizePixel = 0
 					paragraphframe.ClipsDescendants = true
