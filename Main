@@ -36,7 +36,7 @@ nameOfGame = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 
 
 local Config = setmetatable({},{ __newindex = function(tables,key,value) rawset(tables,key,value) end})
-local ConfigSetting = {FileName=game.Players.LocalPlayer.Name .. "_" .. game.PlaceId ,AutoSave=true,FolderName='Verny Hub'}
+local ConfigSetting = {FileName=game.Players.LocalPlayer.Name .. "_" .. game.PlaceId ,AutoSave=true,FolderName='Lua Hub'}
 function verny:CreateFile() :any
 	local FileName = ConfigSetting.FileName or "Next"
 	local FolderName = ConfigSetting.FolderName or "NextJs"
@@ -45,7 +45,7 @@ function verny:CreateFile() :any
 	end
 	if not isfile(FolderName..'/'..FileName..".json") then
 		xpcall(function()
-			writefile('Verny Hub/'..FileName..".json",tostring("{}"))
+			writefile('Lua Hub/'..FileName..".json",tostring("{}"))
 		end,function(x)
 			return {false,x}
 		end)
@@ -360,7 +360,7 @@ function verny.create(Settings)
 	else
 		local focus = false
 		local layout = -1
-		local Title = Settings.Title or tostring("Lemon Hub")
+		local Title = Settings.Title or tostring("Lua Hub")
 		local ApiCode = Settings.Code or tostring("29xZBq3UGB")
 
 		local verny_main = Create("Frame",{
@@ -421,7 +421,7 @@ function verny.create(Settings)
 			TextXAlignment = Enum.TextXAlignment.Left,
 		})
 		local title_verny_uigradient = Create("UIGradient",{
-			Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 94, 61)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(22, 144, 50))},
+			Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 24, 62)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(131, 15, 202))},
 			Name = "title_verny_uigradient",
 			Parent = title_verny,
 		})
@@ -463,7 +463,7 @@ function verny.create(Settings)
 		local joindiscordbutton = Create("TextButton",{
 			Name = "joindiscordbutton",
 			Parent = scrollbar_main,
-			BackgroundColor3 = Color3.fromRGB(22, 144, 50),
+			BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 			BorderSizePixel = 0,
 			Position = UDim2.new(0.0470588244, 0, 0.19600001, 0),
 			Size = UDim2.new(0, 154, 0, 21),
@@ -659,7 +659,7 @@ function verny.create(Settings)
 			local buttonbar = Create("TextButton",{
 				Name = "buttonbar",
 				Parent = framebar,
-				BackgroundColor3 = Color3.fromRGB(100, 205, 44),
+				BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 				BackgroundTransparency = 1.000,
 				Size = UDim2.new(0, 169, 0, 52),
 				Font = Enum.Font.SourceSans,
@@ -679,7 +679,7 @@ function verny.create(Settings)
 				Position = UDim2.new(0.119999997, 0, 0.5, 0),
 				Size = UDim2.new(0, 25, 0, 25),
 				Image = "http://www.roblox.com/asset/?id="..tonumber(Logo),
-				ImageColor3 = Color3.fromRGB(22, 144, 50),
+				ImageColor3 = Color3.fromRGB(29, 25, 30),
 				ScaleType = Enum.ScaleType.Fit,
 			})
 
@@ -1034,7 +1034,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1206,7 +1206,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1342,7 +1342,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1483,7 +1483,7 @@ function verny.create(Settings)
 								Parent = CheckBox1,
 								Active = true,
 								AnchorPoint = Vector2.new(0.5, 0.5),
-								BackgroundColor3 = Color3.fromRGB(22, 144, 50),
+								BackgroundColor3 = Color3.fromRGB(29, 25, 30),
 								Position = UDim2.new(0.5, 0, 0.5, 0),
 								Size = UDim2.new(0, 0, 0, 0),
 								ClipsDescendants = true,
@@ -1606,7 +1606,7 @@ function verny.create(Settings)
 						Parent = CheckBox1,
 						Active = true,
 						AnchorPoint = Vector2.new(0.5, 0.5),
-						BackgroundColor3 = Color3.fromRGB(22, 144, 50),
+						BackgroundColor3 = Color3.fromRGB(136, 32, 168),
 						Position = UDim2.new(0.5, 0, 0.5, 0),
 						Size = UDim2.new(0, 0, 0, 0),
 						ClipsDescendants = true,
@@ -2062,7 +2062,7 @@ function verny.create(Settings)
 					labelframe_uicorner.Name = "labelframe_uicorner"
 					labelframe_uicorner.Parent = labelframe
 
-					stroke(labelframe,0,1,Color3.fromRGB(50,50,50))
+					stroke(labelframe,0,1,Color3.fromRGB(29, 25, 30))
 
 					function Refresh.Update(v)
 						texthead.Text = v
@@ -2094,7 +2094,7 @@ function verny.create(Settings)
 					paragraphframe.Position = UDim2.new(0, 0, 10.318182, 0)
 					paragraphframe.Size = UDim2.new(0, 380, 0, 50)
 
-					stroke(paragraphframe,0,1,Color3.fromRGB(50,50,50))
+					stroke(paragraphframe,0,1,Color3.fromRGB(29, 25, 30))
 
 					paragraph.Name = "paragraph"
 					paragraph.Parent = paragraphframe
