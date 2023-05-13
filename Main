@@ -36,7 +36,7 @@ nameOfGame = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 
 
 local Config = setmetatable({},{ __newindex = function(tables,key,value) rawset(tables,key,value) end})
-local ConfigSetting = {FileName=game.Players.LocalPlayer.Name .. "_" .. game.PlaceId ,AutoSave=true,FolderName='Lua Hub'}
+local ConfigSetting = {FileName=game.Players.LocalPlayer.Name .. "_" .. game.PlaceId ,AutoSave=true,FolderName=' Lua V-Hub'}
 function verny:CreateFile() :any
 	local FileName = ConfigSetting.FileName or "Next"
 	local FolderName = ConfigSetting.FolderName or "NextJs"
@@ -45,7 +45,7 @@ function verny:CreateFile() :any
 	end
 	if not isfile(FolderName..'/'..FileName..".json") then
 		xpcall(function()
-			writefile('Lua Hub/'..FileName..".json",tostring("{}"))
+			writefile(' Lua V-Hub/'..FileName..".json",tostring("{}"))
 		end,function(x)
 			return {false,x}
 		end)
@@ -360,8 +360,8 @@ function verny.create(Settings)
 	else
 		local focus = false
 		local layout = -1
-		local Title = Settings.Title or tostring("Lua Hub")
-		local ApiCode = Settings.Code or tostring("29xZBq3UGB")
+		local Title = Settings.Title or tostring(" Lua V-Hub")
+		local ApiCode = Settings.Code or tostring("SrfwEygvTE")
 
 		local verny_main = Create("Frame",{
 			Name = "verny_main",
